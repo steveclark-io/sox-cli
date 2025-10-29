@@ -209,7 +209,7 @@ elif [ "$command" == "clone-and-normalize" ]; then
 elif [ "$command" == "normalize" ]; then
   normalize_all_files "$BASE_PATH"
 elif [ "$command" == "check-files-ot" ]; then
-  check_files "$BASE_PATH"
+  check_files_ot "$BASE_PATH"
 else
   echo "Invalid command. Valid commands are:"
   echo "  clone-and-convert-ot"
